@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1373px) {
+    header {
+        display: none;
+    }
+    .block-1-bg {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-size: 185%;
+        z-index: -1;
+    }
+    .block-1 img {
+        width: 80%;
+    }
+    .block-1-content {
+        display: none !important;
+    }
+    .block-1-left {
+        width: 100% !important;
+    }
+    .block-1-bg-beatufiers {
+        display: none !important;
+    }
+    .block-1-top-left-design img {
+        width: 100% !important;
+    }
+    .block-1-product-img {
+        padding-top: 95px;
+        padding-left: 70px;
+        height: 50%;
+    }
+    .block-4-main img {
+        width: 100%;
+    }
+    .mobile-block-1-title h4 {
+        font-family: 'Raleway Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px !important;
+        line-height: 19px !important;
+    }
+    .mobile-block-1-title h4 span {
+        color: #FFFFFF;
+    }
+    .mobile-block-1-info p {
+        width: 50%;
+        margin: 0 auto;
+        font-family: 'Roboto Bold';
+        font-style: normal;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .mobile-block-1-content {
+        display: inherit;
+    }
+    .mobile-block-1-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-block-1-buttons button {
+        background: #ED2939;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 24.3297px 24.3297px rgba(24, 133, 107, 0.2);
+        border-radius: 24.3297px;
+        font-family: 'Raleway Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .block-4-midle-image-div img {
+        width: 50% !important;
+        margin: 25% 0 !important; 
+    }
+    .block-3-selected {
+        display: none !important;
+    }
+    .slider-buttons {
+        padding: 0 !important;
+    }
+    .block-4-bottom-red-button {
+        margin-top: 25%;
+    }
+    .block-6-left-side {
+        margin-top: 25%;
+    }
+    .block-5-right {
+        margin-top: 25%;
+    }
+    .block-6-info-margin {
+        padding: 0;
+    }
+    .block-6-right-side ul {
+        height: 100%;
+    }
+    .block-7-main-form form {
+        width: 85%;
+    }
+    .mobile-block-3-selected {
+        display: flex !important;
+    }
+    footer {
+        background-position: 35%;
+    }
+    
+    
+}

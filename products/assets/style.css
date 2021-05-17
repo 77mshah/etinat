@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto',sans-serif;
+    /* font-family: 'Raleway',sans-serif; */
+}
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+#section-a{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.navbar-menu{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.navbar-menu{
+    flex-wrap: wrap;
+}
+.navbar-item a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12.73px;
+    line-height: 22.23px;
+    font-style: normal;
+    color: #ED2939;
+    cursor: pointer;
+}
+
+  .line{
+font-size: 30px;
+padding-right: 1rem;
+color: #ED2939;
+}
+ .phone{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13.3728px;
+    line-height: 23px;
+    /* or 23px */
+    float: right;
+     margin-top:3%; 
+     margin-right:2%;
+     color: #3F9C35; 
+    position: absolute;
+    
+    }
+
+li> button{
+    margin-left: 1.8rem;
+    width: 180px;
+    height: 30px;
+   border: none;
+   outline: none;
+   border: 1px solid crimson;
+   background-color: #fff;
+   color: crimson;
+   border-radius: 50px;
+
+}
+.center{
+    padding-top: 20px;
+}
+ li>button:hover{
+    background-color:crimson ;
+   color: #fff;
+   transition: 0.3s ease;
+}
+.navbar-burger{
+    display: none;
+}
+
+.container{
+    padding-top: 3rem;
+   
+}
+
+
+.btn1>button{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #3F9C35;
+    color: white;
+
+}
+.btn2>button{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #ED2939;
+    color: white;
+
+}
+.btn3>button{
+    width: 250px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #ED2939;
+    color: white;
+
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.head>img{
+    position: absolute;
+    width: 18%;
+    left:5%;
+}
+.head>h4{
+text-align: center;
+font-family: "Raleway";
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 137.4%;
+color: #333333;
+width: 35%;
+margin: 0 auto;
+}
+.head>.divider{
+    margin: 0 auto;
+    border: 3px solid #3F9C35;
+    border-radius: 999px;
+    background-color: #3F9C35;
+    width: 17%;
+    margin-bottom: 3%;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    
+}
+.images>.inner{
+    width: 24%;
+    height:500px;
+    margin-left: .5rem;
+    flex-direction: column;
+   
+}
+.inner>.image{
+    width: 100%;
+    height: 80%;
+    border-radius: 50px;
+  border: 1px solid #3F9C35;
+   display: flex;
+   flex-direction: column;
+} 
+.images .sp1{
+    margin-bottom: 10%;
+    color: #3F9C35;
+    font-weight: bold;
+}
+.images .sp2{
+    margin-top: 10%;
+    width: 60%;
+    color: #3F9C35;
+    font-weight: bold;
+}
+.images .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images .center-img{
+    width: 80%;
+    height: 260px;
+    position: relative;
+    /* border: 1px solid #3F9C35; */
+}
+.center-img img{
+    width: 100%;
+    height: 100%;
+   
+}
+.inside-sp{
+   position: absolute;
+   bottom:5%;
+   right: 20%;
+   background-color: crimson; 
+   border-radius: 50%;
+   padding: 0.6rem;
+   color: #fff;
+}
+.btn-div{
+    padding: 5%;
+}
+
+.btn-div>button>div>i{
+    font-size: 9px;
+    margin-right: 10px;
+    color: #fff;
+  } 
+.btn-div>button
+{
+    display: flex;align-items: center;
+    background-color: #3F9C35;
+    border-radius: 25px;
+    border: 1px #3F9C35 solid;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    margin: 0 auto;
+   
+}
+.diff{
+    background-color:#ED2939 !important;
+    border: 1px solid #ED2939 !important;
+}
+
+footer {
+    background-image: url(../../assets/images/image-illustrat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 2%;
+}
+footer h4 {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+footer li,
+footer p {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+footer p {
+    margin: 0;
+    margin-bottom: 45px;
+}
+.footer-h4-divider {
+    border: 1px solid #fff;
+    width: 20%;
+}
+.footer-left {
+    margin-bottom: 50px;
+}
+.footer-left-title,
+.footer-mid-title,
+.footer-right-title {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:1200px) {
+    .hidden{
+        display: none;
+    }
+    .navbar-burger{
+        display: flex;
+        color: crimson;
+        justify-content: flex-start;
+        
+    }
+    .images>.inner{
+        width: 48%;
+        height:550px;
+        margin-left: .5rem;
+        flex-direction: column;
+       
+    }
+    .btn3>button,
+    .btn1>button,
+    .btn2>button{
+    margin-top: 2%;
+    }
+    .section-c-p{
+        width: 100%;
+    }
+    .head>h4{
+        width: 60%;
+        font-size: 30px;
+        }
+    
+}
+@media screen and (max-width:500px) {
+    .hidden{
+        display: none;
+    }
+    .navbar-burger{
+        display: flex;
+        color: crimson;
+        justify-content: flex-start;
+        
+    }
+    .images>.inner{
+        width: 80%;
+        height:550px;
+        margin-left: .5rem;
+        flex-direction: column;
+       
+    }
+    .btn3>button,
+    .btn1>button,
+    .btn2>button{
+    margin-top: 2%;
+    }
+    .section-c-p{
+        width: 100%;
+    }
+    .head>h4{
+        width: 50%;
+        font-size: 25px;
+        }
+    
+}
